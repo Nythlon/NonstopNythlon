@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 100px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./assets/jumbo1.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main-content {
+  margin: 5rem;
+  padding: 2em;
+  border: 3px #222527 solid;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.main-content h1 {
+  color: black;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .main-content, .description {
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
