@@ -42,6 +42,7 @@ const Styles = styled.div`
   #search-btn {
     border-radius: 10px;
     margin-left: 5px;
+    padding-bottom: 25px;
   }
 
   #search-bar,

@@ -4,7 +4,7 @@ export const About = () => (
   <div className="main-content">
     <h1>About</h1>
     <p>
-      My name is Daniel Seely, a 29 year old with over 3 years working as a civil
+      My name is Daniel Seely, a 30 year old with over 3 years working as a civil
       engineer, with the aspiration of becoming a front-end developer. I enjoy
       creating things, playing video games, programming, and solving a good
       challenge.

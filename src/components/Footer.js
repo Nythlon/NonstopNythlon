@@ -21,7 +21,7 @@ export const Footer = () => (
   <Styles>
     <div className="footer-container">
       <footer className="footer">
-        <p>Nonstop Nythlon, Copyright &copy; 2019</p>
+        <p>Nonstop Nythlon, Copyright &copy; 2021</p>
       </footer>
     </div>
   </Styles>

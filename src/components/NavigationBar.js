@@ -67,6 +67,16 @@ class NavigationBar extends React.Component {
                     Google Books Search
                   </NavDropdown.Item>
                 </LinkContainer>
+                <LinkContainer to="/poker">
+                  <NavDropdown.Item className="projects">
+                    Poker
+                  </NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to="/marchmadness">
+                  <NavDropdown.Item className="projects">
+                    March Madness
+                  </NavDropdown.Item>
+                </LinkContainer>
               </NavDropdown>
               <LinkContainer to="/about">
                 <Nav.Link>About</Nav.Link>
